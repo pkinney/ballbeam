@@ -1,7 +1,9 @@
 BallBeam Control with PIDControl
 ===
 
-Example application using [PIDControl](https://github.com/pkinney/pid_control) to control a ball-beam system.
+Example Nerves/Phoenix application using [PIDControl](https://github.com/pkinney/pid_control) to control a ball-beam system.
+
+![](images/video.gif)
 
 
 Running Locally
@@ -55,4 +57,6 @@ specify the network name and password, they must be set as environment variables
 If they are not specified, a warning will be printed when building firmware, which either
 gives you a chance to stop the build and add the environment variables or a clue as to 
 why you are no longer able to access the device over WiFi.
+
+
 
