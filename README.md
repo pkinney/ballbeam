@@ -3,7 +3,7 @@ BallBeam Control with PIDControl
 
 Example Nerves/Phoenix application using [PIDControl](https://github.com/pkinney/pid_control) to control a ball-beam system.
 
-![](images/video.gif)
+![video](https://user-images.githubusercontent.com/628952/214701901-59adf454-0071-4243-8d8c-14d1238232f1.gif)
 
 
 Running Locally
