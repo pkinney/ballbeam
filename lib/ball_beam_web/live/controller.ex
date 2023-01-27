@@ -51,8 +51,6 @@ defmodule BallBeamWeb.Controller do
     """
   end
 
-  defp format_set_point(nil), do: "--"
-  defp format_set_point(d), do: :erlang.float_to_binary(d, decimals: 0) <> " cm"
   defp format_error(nil), do: "--"
   defp format_error(err), do: :erlang.float_to_binary(err, decimals: 2) <> " cm"
 

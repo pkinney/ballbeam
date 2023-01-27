@@ -41,11 +41,10 @@ defmodule BallBeam.MixProject do
   defp deps do
     [
       {:pid_control, "~> 0.1.0"},
-      # {:pid_control, path: "../pid_control"},
-      {:tmf882x, path: "../tmf882x"},
-      # {:vl53l4cd, path: "../vl53l4cd"},
-      {:robotis, path: "../robotis"},
+      {:tmf882x, "~> 0.1.0"},
+      {:robotis, "~> 0.1.1"},
       {:cubdb, "~> 2.0"},
+
       # Initial pheonix deps
       {:phoenix, "~> 1.6.15"},
       {:phoenix_html, "~> 3.0"},
